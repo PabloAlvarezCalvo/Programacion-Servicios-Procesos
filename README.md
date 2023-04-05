@@ -14,6 +14,10 @@ En los ejercicios se utilizará la entrada estándar por teclado para la introdu
 ## [UD02 - Programación de hilos](src/ud02)
 En esta unidad didáctica se ve la programación multihilo, generando hilos mediante implementación de la [interfaz Runnable](https://docs.oracle.com/javase/7/docs/api/java/lang/Runnable.html), o mediante herencia de la [clase Thread](https://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html).
 
+La sincronización entre hilos se realizar mediante objetos compartidos con [métodos sincronizados](https://docs.oracle.com/javase/tutorial/essential/concurrency/syncmeth.html) y el uso del los métodos de sincronización _wait()_ y _notify()_ de _Thread_. Un ejemplo de uso sería el ejercicio [Ej15_Relevos](src/ud02/Ejercicios/Ej15_Relevos).
+
+Otro ejemplo de sincronización podemos verlo en el ejercicio [Ej13_ProductorConsumidor](src/ud02/Ejercicios/Ej13_ProductorConsumidor) donde se realiza una resolución del problema Productor-Consumidor mediante un flag booleano. 
+
 ## [UD03 - Programación de comunicaciones en red](src/ud03)
 
 ## [UD04 - Generación de servicios en red](src/ud04)
