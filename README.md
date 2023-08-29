@@ -19,7 +19,3 @@ La sincronización entre hilos se realizar mediante objetos compartidos con [mé
 Otro ejemplo de sincronización podemos verlo en el ejercicio [Ej13_ProductorConsumidor](src/ud02/Ejercicios/Ej13_ProductorConsumidor) donde se realiza una resolución del problema Productor-Consumidor mediante un flag booleano. 
 
 ## [UD03 - Programación de comunicaciones en red](src/ud03)
-
-## [UD04 - Generación de servicios en red](src/ud04)
-
-## [UD05 - Técnicas de programación segura](src/ud05)
