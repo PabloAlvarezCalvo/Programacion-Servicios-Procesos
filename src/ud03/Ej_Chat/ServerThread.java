@@ -1,4 +1,4 @@
-package ud03.Ejercicios.Ej_Chat;
+package ud03.Ej_Chat;
 
 import java.io.DataInputStream;
 import java.io.IOException;
